@@ -20,6 +20,15 @@ import swervelib.math.Matter;
  */
 public final class Constants
 {
+  public static enum RobotType {
+    ROBOT_2K24,
+    ROBOT_SIM
+  }
+
+  public static final boolean TUNING_MODE = true;
+  public static final double LOOP_PERIOD_SECS = 0.02;
+  public static final RobotType ROBOT = RobotType.ROBOT_SIM;
+
 
   public static final double ROBOT_MASS = (148 - 20.3) * 0.453592; // 32lbs * kg per pound
   public static final Matter CHASSIS    = new Matter(new Translation3d(0, 0, Units.inchesToMeters(8)), ROBOT_MASS);

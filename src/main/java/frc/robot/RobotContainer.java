@@ -20,7 +20,6 @@ import frc.robot.Constants.OperatorConstants;
 import frc.robot.commands.swervedrive.drivebase.TeleopDrive;
 import frc.robot.subsystems.swervedrive.SwerveSubsystem;
 import java.io.File;
-
 import com.pathplanner.lib.auto.AutoBuilder;
 
 /**
@@ -39,8 +38,7 @@ public class RobotContainer
   final CommandXboxController driverXbox = new CommandXboxController(0);
 
   // A chooser for autonomous commands
-  private SendableChooser<Command> autoChooser = new SendableChooser<>();
-
+  private SendableChooser<Command> autoChooser;
   /**
    * The container for the robot. Contains subsystems, OI devices, and commands.
    */

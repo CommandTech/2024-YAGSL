@@ -3,13 +3,17 @@
   "robotLength": 0.9,
   "holonomicMode": true,
   "pathFolders": [
-    "New Folder"
+    "2PieceFar",
+    "6Piece",
+    "CenterPush",
+    "CenterNotes"
   ],
-  "autoFolders": [],
-  "defaultMaxVel": 3.0,
+  "autoFolders": [
+    "Center Notes"
+  ],
+  "defaultMaxVel": 4.8,
   "defaultMaxAccel": 3.0,
-  "defaultMaxAngVel": 540.0,
-  "defaultMaxAngAccel": 720.0,
-  "maxModuleSpeed": 4.5,
-  "choreoProjectPath": null
+  "defaultMaxAngVel": 360.0,
+  "defaultMaxAngAccel": 300.0,
+  "maxModuleSpeed": 4.8
 }

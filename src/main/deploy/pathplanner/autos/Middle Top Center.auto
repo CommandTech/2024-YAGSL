@@ -1,0 +1,25 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.4046341994029286,
+      "y": 7.288971707988259
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "StartToMiddleTopCenter"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Center Notes",
+  "choreoAuto": false
+}

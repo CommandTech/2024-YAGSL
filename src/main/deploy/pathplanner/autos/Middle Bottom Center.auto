@@ -2,8 +2,8 @@
   "version": 1.0,
   "startingPose": {
     "position": {
-      "x": 2.0,
-      "y": 7.0
+      "x": 1.4230406936150202,
+      "y": 1.59216174934592
     },
     "rotation": 0
   },
@@ -14,12 +14,12 @@
         {
           "type": "path",
           "data": {
-            "pathName": "New Path"
+            "pathName": "StartToMiddleBottomCenter"
           }
         }
       ]
     }
   },
-  "folder": null,
+  "folder": "Center Notes",
   "choreoAuto": false
 }
